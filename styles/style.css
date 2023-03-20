@@ -27,6 +27,7 @@ body {
 .logo_sdc {
     width: 375px;
     height: 375px;
+    border-radius: 1.2rem;
 }
 
 .title_sdc {
