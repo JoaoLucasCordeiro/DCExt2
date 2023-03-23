@@ -10,7 +10,7 @@
 body {
     min-width: 100vw;
     min-height: 100vh;
-    background-color: #EEE;
+    background-color: #E6E6E6;
 }
 
 /* estilização do header da página */
@@ -20,10 +20,10 @@ body {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    background-image: url(../assets/images/bg_navbar.png);
+    /* background-image: url(../assets/images/bg_navbar.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .logo_page h1 {
@@ -98,7 +98,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 3rem;    
+    gap: 3rem;
     margin-bottom: 3rem;
 }
 
@@ -143,8 +143,16 @@ body {
     height: 433px;
     background-color: #940000;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_content {
+    display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 5rem;
 }
 
 .inf_event {
@@ -152,7 +160,8 @@ body {
     flex-direction: column;
 }
 
-.contact, .social_media {
+.contact,
+.social_media {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -167,6 +176,12 @@ body {
     transition: all ease-in-out .3s;
 }
 
-.sm_icon:hover{
+.sm_icon:hover {
     transform: scale(1.1);
+}
+
+.rights_reserved {
+    text-align: center;
+    margin-top: 5rem;
+    color: #FFF;
 }
