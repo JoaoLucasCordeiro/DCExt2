@@ -64,6 +64,8 @@ body {
 .section_titles {
     color: #1C3C78;
     text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
 }
 
 /* estilização das sections da página */
@@ -71,6 +73,7 @@ body {
 .banner_section {
     width: 100%;
     height: 768px;
+    margin-bottom: 3rem;
 }
 
 .banner_section img {
