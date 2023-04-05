@@ -10,7 +10,7 @@
 body {
     min-width: 100vw;
     min-height: 100vh;
-    background-color: #DDDDDD;
+    background-color: #FFF;
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -342,13 +342,14 @@ body {
     .header_page {
         display: flex;
         justify-content: space-between;
+        height: 95px;
     }
 
     #menu {
         display: block;
         position: absolute;
         width: 100%;
-        top: 110px;
+        top: 90px;
         right: 0px;
         background: #E7E7E7;
         height: 0px;
@@ -364,7 +365,7 @@ body {
     }
 
     #nav.active #menu {
-        height: calc(77vh - 110px);
+        height: calc(77vh - 90px);
         visibility: visible;
         overflow-y: auto;
     }
@@ -415,7 +416,7 @@ body {
     }
 
     .banner_section {
-        background-image: url(../assets/banner/banner_mobile-wb.png) !important;
+        background-image: url(../assets/banner/banner_mobile-cb.svg) !important;
     }
 
 }
