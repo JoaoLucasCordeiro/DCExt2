@@ -495,4 +495,31 @@ body {
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.35);
     }
 
+    /*institucional*/
+
+    .img_upe_support {
+        width: 200px;
+    }
+
+    /*localização*/
+    
+    .localization_map {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .localization_map iframe {
+        width: 320px;
+        height: 320px;
+    }
+
+    .w-localization {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
 }
