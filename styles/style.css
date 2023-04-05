@@ -124,7 +124,7 @@ body {
 
 }
 
-.content_row {
+.content_box {
     margin-top: 3.5rem;
     display: flex;
     align-items: center;
@@ -335,6 +335,8 @@ body {
     color: #FFF;
 }
 
+/*tratando da responsividade*/
+
 @media (max-width: 600px) {
 
     /*menu mobile*/
@@ -415,8 +417,41 @@ body {
         top: -7px;
     }
 
+    /*banner versão mobile*/
+
     .banner_section {
         background-image: url(../assets/banner/banner_mobile-cb.svg) !important;
+    }
+
+    /*sessões*/
+
+    .section_titles {
+        font-size: 2rem;
+    }
+
+    .content_box {
+        margin-top: 3.5rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .content_box img {
+        width: 345px;
+    }
+
+    .content {
+        font-size: 0.9rem;
+        max-width: 320px;
+    }
+
+    /*cronograma*/
+
+    .timeline_dates {
+        margin-top: 3rem;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 3rem;
     }
 
 }
