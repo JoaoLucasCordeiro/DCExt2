@@ -85,9 +85,16 @@ body {
     display: none;
 }
 
+/*media query do menu mobile*/
+
 @media (max-width: 600px) {
 
     /*menu mobile*/
+
+    .header_page {
+        display: flex;
+        justify-content: space-between;
+    }
 
     #menu {
         display: block;
@@ -160,16 +167,12 @@ body {
     }
 
     .banner_section {
-        width: 100vw;
-        height: 550px;
-        margin-bottom: 3rem;
-        background-image: url(../assets/banner/banner_mobile.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
+        background-image: url(../assets/banner/banner_mobile.png) !important;
     }
 
 }
+
+
 
 /* estilização dos titles */
 
@@ -199,13 +202,7 @@ body {
 }
 
 /* ----- */
-.content_row {
-    margin-top: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-}
+
 
 .content_row_timeline {
     margin-top: 3rem;
@@ -214,6 +211,13 @@ body {
     justify-content: center;
     gap: 3rem;
 
+}
+
+.content_row {
+    margin-top: 3.5rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
 }
 
 .activities_content {
@@ -312,8 +316,6 @@ body {
 .member_container {
     cursor: pointer;
     transition: all .2s ease-in-out;
-
-
 }
 
 .member_container:hover {
