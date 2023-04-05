@@ -14,46 +14,58 @@
 
     <header class="header_page">
 
-        <div class="logo_page">
-            <a href="/">
-                <img src="./assets/logo/logo_sdc.png" alt="Logo semana de computação" width="100px">
-            </a>
-           
-        </div>
+        <a href="/" class="logo_page">
+            <img src="./assets/logo/logo_sdc.png" alt="Logo semana de computação" width="100px">
+        </a>
 
-        <nav class="nav_bar">
+        <nav id="nav">
 
-            <a href="#evento">
-                <span class="links_nav_bar">O evento</span>
-            </a>
-            <a href="#atividades">
-                <span class="links_nav_bar">Atividades</span>
-            </a>
-            <a href="#cronograma">
-                <span class="links_nav_bar">Cronograma</span>
-            </a>
-            <a href="#organizacao">
-                <span class="links_nav_bar">Organização</span>
-            </a>
-            <a href="#localizacao">
-                <span class="links_nav_bar">Localização</span>
-            </a>
-            <a href="#contato">
-                <span class="links_nav_bar">Contato</span>
-            </a>
+            <button id="btn_mobile" aria-expanded="false" aria-controls="menu" aria-haspopup="true" aria-label="Abrir menu">
+                Menu
+                <span id="menu_hamburguer"></span>
+            </button>
+
+
+            <ul class="nav_links" id="menu" role="menu" >
+                <li class="links_nav_bar">
+                    <a href="#evento">O evento</a>
+                </li>
+
+                <li class="links_nav_bar">
+                    <a href="#atividades">Atividades</a>
+                </li>
+
+                <li class="links_nav_bar">
+                    <a href="#cronograma">Cronograma</a>
+                </li>
+
+                <li class="links_nav_bar">
+                    <a href="#organizacao">Organização</a>
+                </li>
+
+                <li class="links_nav_bar">
+                    <a href="#localizacao">Localização</a>
+                </li>
+
+                <li class="links_nav_bar">
+                    <a href="#contato">Contato</a>
+                </li>
+
+                <a href="https://www.even3.com.br/1-semana-de-computacao-da-upe-garanhuns/" target="_blank">
+                    <button class="nav_button">Inscreva-se</button>
+                </a>
+
+            </ul>
+
 
         </nav>
-
-        <a href="https://www.even3.com.br/1-semana-de-computacao-da-upe-garanhuns/" target="_blank">
-            <button class="nav_button">Inscreva-se</button>
-        </a>
 
     </header>
 
     <main>
 
         <section class="banner_section">
-            <img src="./assets/banner/sdc_banner.svg" alt="Banner da semana de computação">
+            <img src="./assets/banner/sdc_banner_teste.svg" alt="Banner da semana de computação">
         </section>
 
         <section class="event_section sec">
@@ -84,7 +96,7 @@
                     <p>até dia <strong>23/04</strong></p>
                 </div>
             </a>
-            
+
             <div class="content_timeline">
                 <h2 class="timeline_title">Evento</h2>
                 <p><strong>24/04</strong> a <strong>25/04</strong></p>
@@ -100,25 +112,29 @@
 
                 <div class="collum_activities">
                     <p class="content">
-                        <strong>Palestras </strong> - A 1º Semana de Computação da UPE - Campus Garanhuns “Computação em Todo
+                        <strong>Palestras </strong> - A 1º Semana de Computação da UPE - Campus Garanhuns “Computação em
+                        Todo
                         Lugar” contará com
-                        Palestras proferidas por profissionais da área com temas variados e diversos. Com inscrição gratuita, as
+                        Palestras proferidas por profissionais da área com temas variados e diversos. Com inscrição
+                        gratuita, as
                         palestras serão uma ótima oportunidade para ampliar seus conhecimentos.
                     </p>
-        
+
                     <p class="content">
-                        <strong>Mini Cursos</strong> - O evento contará com minicursos ministramos por alunos e professores da
+                        <strong>Mini Cursos</strong> - O evento contará com minicursos ministramos por alunos e
+                        professores da
                         UPE. Com temas
-                        variados, os minicursos acontecerão em sua grande maioria nos laboratórios da UPE - Campus Garanhuns,
+                        variados, os minicursos acontecerão em sua grande maioria nos laboratórios da UPE - Campus
+                        Garanhuns,
                         com inscrições gratuitas é importante ressaltar que as inscrições dos minicursos são limitadas à
                         quantidades de vagas no laboratório.
                     </p>
                 </div>
 
-              
+
             </div>
 
-          
+
 
         </section>
 
@@ -319,8 +335,7 @@
                 </div>
 
                 <div class="member_container">
-                    <img src="./assets/organizacao/pedro-mota-design.jpg" alt="Thiago Barbosa"
-                        class="member_org_img">
+                    <img src="./assets/organizacao/pedro-mota-design.jpg" alt="Thiago Barbosa" class="member_org_img">
                     <div class="inf_member">
                         <h4 class="member_name">Pedro Mota</h4>
                         <span class="member_charge">Design</span>
