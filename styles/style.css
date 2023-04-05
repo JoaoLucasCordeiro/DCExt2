@@ -425,6 +425,12 @@ body {
 
     /*sessões*/
 
+    .organization_section,
+    .support_section,
+    .localization_section {
+        margin-top: 4rem;
+    }
+
     .section_titles {
         font-size: 2rem;
     }
@@ -452,6 +458,41 @@ body {
         flex-direction: column;
         gap: 2rem;
         margin-bottom: 3rem;
+    }
+
+    /*organização*/
+
+
+    .org_members {
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(11, 1fr);
+        gap: 0.7rem;
+    }
+
+    .inf_member {
+        background-color: #1C3C78;
+        width: 175px;
+        padding: 0.2rem;
+        color: #EEE;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.35);
+    }
+
+    .member_name {
+        font-size: 0.85rem;
+    }
+
+    .member_charge {
+        font-size: 0.65rem;
+    }
+
+    .member_org_img {
+        width: 175px;
+        height: 175px;
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.35);
     }
 
 }
