@@ -123,12 +123,15 @@ body {
         background: none;
         cursor: pointer;
         gap: .5rem;
+        color: #920000;
+        font-weight: bold;
     }
 
     #menu_hamburguer {
         display: block;
         width: 20px;
         border-top: 2px solid;
+        color: #920000;
     }
 
     #menu_hamburguer::after,
@@ -156,6 +159,16 @@ body {
         top: -7px;
     }
 
+    .banner_section {
+        width: 100vw;
+        height: 550px;
+        margin-bottom: 3rem;
+        background-image: url(../assets/banner/banner_mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
 }
 
 /* estilização dos titles */
@@ -174,6 +187,10 @@ body {
     width: 100vw;
     height: 550px;
     margin-bottom: 3rem;
+    background-image: url(../assets/banner/sdc_banner_desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner_section img {
